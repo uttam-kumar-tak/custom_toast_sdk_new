@@ -20,7 +20,7 @@ fun performAddition(a:Int, b:Int) : Int {
 }
 
 fun showCustomToast(context: Context){
-    val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
+//    val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
 //    val layout: View = inflater.inflate(
 //        com.example.my_custom_toast.R.layout.custom_toast_layout, null
 //        findViewById(com.example.my_custom_toast.R.id.toast_layout_root) as ViewGroup?
