@@ -1,5 +1,6 @@
 include ':my_custom_toast'
 include ':app'
+rootProject.name = "Custom Toast SDK"
 
 //dependencyResolutionManagement {
 //    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
@@ -9,4 +10,4 @@ include ':app'
 //        maven { url 'https://jitpack.io'}
 //    }
 //}
-//rootProject.name = "Custom Toast SDK"
+
