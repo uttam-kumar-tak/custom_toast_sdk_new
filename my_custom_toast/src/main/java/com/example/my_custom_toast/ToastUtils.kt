@@ -21,18 +21,18 @@ fun performAddition(a:Int, b:Int) : Int {
 
 fun showCustomToast(context: Context){
     val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
-    val layout: View = inflater.inflate(
-        com.example.my_custom_toast.R.layout.custom_toast_layout, null
+//    val layout: View = inflater.inflate(
+//        com.example.my_custom_toast.R.layout.custom_toast_layout, null
 //        findViewById(com.example.my_custom_toast.R.id.toast_layout_root) as ViewGroup?
-    )
+//    )
 
 
-    val text = layout.findViewById<View>(com.example.my_custom_toast.R.id.toast_text) as TextView
-    text.text = "Hello! This is a custom toast!"
+//    val text = layout.findViewById<View>(com.example.my_custom_toast.R.id.toast_text) as TextView
+//    text.text = "Hello! This is a custom toast!"
 
-    val toast = Toast(context)
-    toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0)
-    toast.duration = Toast.LENGTH_LONG
-    toast.setView(layout)
+    val toast = Toast.makeText(context, "Hello! This is a custom toast!", Toast.LENGTH_LONG)
+//    toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0)
+//    toast.duration = Toast.LENGTH_LONG
+//    toast.ma(layout)
     toast.show()
 }
